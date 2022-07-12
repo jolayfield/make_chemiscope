@@ -27,7 +27,7 @@ my_parser.add_argument('Output',
                       metavar='output_file',
                       type=str,
                       help='The full name of the chemiscope file (it should end in `.json.gz`)')
-my_parser.add_argument('-p','--plumed', required=True
+my_parser.add_argument('-p','--plumed', required=False
                       )
 
 # Execute the parse_args() method
